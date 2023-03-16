@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+#contact{
+  scale: 2.5;
+  font-family: cursive;
+}
+
+h1,h3{
+  color: black;
+  font-family: cursive;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+
+.content {
+  padding: 50px;
+  background-color: bisque;
+
+}
+
+.details{
+  margin-left: auto;
+
+}
+
+.photo{
+  position: absolute;
+  right: 420px;
+  top: 850px;
+  width: 350px;
+  height: 380px;
+  
+}
+
+.pic{
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+  
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.parallax:nth-of-type(odd) {
+  background-image: url('https://source.unsplash.com/random/1600x900');
+}
+
+.parallax:nth-of-type(even) {
+  background-image: url('https://source.unsplash.com/random/1600x901');
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
